@@ -1,11 +1,11 @@
 //--------------------------Loading Screen---------------------------
-var loader=document.getElementById("preloader");
-window.addEventListener("load",()=>{
-    loader.style.display="none";
-})
+// var loader=document.getElementById("preloader");
+// window.addEventListener("load",()=>{
+//     loader.style.display="none";
+// })
 
 
-//----------------------toggle icon nav bar----------------------------
+// ----------------------toggle icon nav bar----------------------------
 let menuIcon=document.querySelector("#menu-icon");
 let navbar=document.querySelector(".navbar");
 
