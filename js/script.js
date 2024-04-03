@@ -1,10 +1,3 @@
-//--------------------------Loading Screen---------------------------
-// var loader=document.getElementById("preloader");
-// window.addEventListener("load",()=>{
-//     loader.style.display="none";
-// })
-
-
 // ----------------------toggle icon nav bar----------------------------
 let menuIcon=document.querySelector("#menu-icon");
 let navbar=document.querySelector(".navbar");
@@ -98,14 +91,14 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 var icon=document.getElementById('sw-icon');
 
 icon.onclick=()=>{
-    if(icon.classList.contains('bxs-sun')){
-        icon.classList.remove('bxs-sun');
-        icon.classList.add('bxs-moon');
+    if(icon.classList.contains('bxs-moon')){
+        icon.classList.remove('bxs-moon');
+        icon.classList.add('bxs-sun');
         document.body.classList.add("light-theme");
         document.body.classList.remove("dark-theme");
     }else{
-        icon.classList.add('bxs-sun');
-        icon.classList.remove('bxs-moon');
+        icon.classList.add('bxs-moon');
+        icon.classList.remove('bxs-sun');
         document.body.classList.add("dark-theme");
         document.body.classList.remove("light-theme");
     }
