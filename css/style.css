@@ -12,19 +12,25 @@
 }
 
 :root {
-    --bg-color: #1a1f26;
-    --second-bg-color: #223344a3;
-    --text-color: #ffffff;
-    --main-color: #4c729d;
-
-    /*  #0ef  #12fd92 */
-}
-
-.light-theme{
     --bg-color: #c4dfdf;
     --second-bg-color: #f8f6f4a3;
     --text-color: #000;
     --main-color: #1d81f4;
+
+    /*  #0ef  #12fd92 */
+
+    /* light-theme */
+    /* --bg-color: #c4dfdf;
+    --second-bg-color: #f8f6f4a3;
+    --text-color: #000;
+    --main-color: #1d81f4; */
+}
+
+.light-theme{
+    --bg-color: #1a1f26;
+    --second-bg-color: #223344a3;
+    --text-color: #ffffff;
+    --main-color: #4c729d;
 }
 
 html {
@@ -126,7 +132,7 @@ section {
 
 .home-img img {
     width: 30vw;
-    animation: floatImage 4s ease-in-out infinite;
+    animation: floatImage 5s ease-in-out infinite;
     border-radius:15%;
 
 }
